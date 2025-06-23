@@ -1,7 +1,8 @@
+#import all necessary libraries
 import pyBigWig
 import numpy as np
 
-# Ask user for input file paths
+# Ask for input file paths
 file1_path = input("Enter path to first bigWig file: ").strip()
 file2_path = input("Enter path to second bigWig file: ").strip()
 output_path = input("Enter path for merged output bigWig (e.g., merged.bw): ").strip()
